@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+}
+
+div.image {
+    content:url(/img/image.png);
+    height: 200px;
+}
